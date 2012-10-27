@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Nicolas Demengel" />
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+	<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+	<meta name="keywords" content="tests, java, web" />
+	<meta name="description" content="Nicolas Demengel, développeur Java concerné" />
+	<link rel="stylesheet" type="text/css" href="style/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<title>Nicolas Demengel</title>
 </head>
 <body>
-	<p><em>En construction...</em></p>
-	<p><em>Under construction...</em></p>
+	<header>
+		<h1>Nicolas Demengel</h1>
+		<img src="img/photo.jpeg" alt="Photo de Nicolas" />
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="#presentation">Présentation</a></li>
+			<li><a href="#misc">Plus d'info</a></li>
+		</ul>
+	</nav>
+	<div id="content">
+		<article id="presentation">
+			<section>
+				<h2>Bonjour,</h2>
+				<p>Je me présente : Nicolas Demengel, développeur <em>passionné</em> et <em>concerné</em>. Actuellement sur Paris, je recherche du travail sur Lyon.</p>
+			</section>
+			<section>
+				<h2>Credo</h2>
+				<p>J'aime mon métier et je cherche à l'exercer au mieux. J'aime la technique, mais je suis conscient qu'elle doit avant tout servir le produit : je travaille sur un logiciel dans le but qu'il réponde au besoin de ses utilisateurs.</p>
+				<p>Je crois au véritable travail d'équipe, où tous les membres se sentent <em>concernés</em> par le produit et s'accordent sur des <em>valeurs</em> pour le construire.</p>
+				<p>Je pense que la profession de développeur peut tendre vers une forme d'<a href="http://manifesto.softwarecraftsmanship.org/">artisanat</a>, et je m'emploie à mon niveau à ce qu'elle aille dans cette direction. J'essaye de me tenir à quelques principes de base &mdash; faire au plus simple, travailler par petits incréments, obtenir du retour au plus tôt &mdash; et m'impose une discipline constante : clean code et TDD/BDD.</p>
+				<p>Je cherche à m'améliorer de manière continue pour devenir un <a href="http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/">meilleur</a> collègue et développeur.</p>
+			</section>
+			<section>
+				<h2>Compétences</h2>
+				<p>Mon langage de programmation habituel est Java, mais je lorgne de plus en plus vers Scala. Je code également depuis mes débuts en JavaScript, même si j'ai dernièrement moins l'occasion de le pratiquer (j'aime ce language et estime le connaître <a href="http://blog.xebia.fr/2012/04/12/javascript-core-par-nicolas-demengel-et-francois-sarradin/">assez bien</a>).<br />
+					D'une manière générale, je développe une <a href="http://blog.xebia.fr/2011/09/15/paradigmes-de-programmation-par-nicolas-demengel/">certaine curiosité</a> pour un bon nombre de <a href="http://learnyouahaskell.com/">langages</a>.</p>
+				<p>Depuis cette année je commence également à donner des formations <a href="http://training.xebia.fr/formation-tdd-software-craftsmanship.html">TDD &amp; Software Craftsmanship</a> pour Xebia Training.</p>
+			</section>
+			<section>
+				<h2>Mais encore ?</h2>
+				<p>Depuis 2010, je suis l'un des deux développeurs de <a href="http://moreunit.org">MoreUnit</a>, un plug-in pour Eclipse simplifiant grandement l'écriture de tests unitaires et le TDD en Java (et très bientôt dans <a href="http://moreunit.git.sourceforge.net/git/gitweb.cgi?p=moreunit/moreunit;a=shortlog;h=refs/heads/multi-lang-support">tous les langages</a>).</p>
+				<p><a href="#misc-occupations">&#8618; Plus de détails sur mes activités courantes</a></p>
+			</section>
+			<section>
+				<h2>Pourquoi ce site ?</h2>
+				<p>Rien ne me ferait plus plaisir que de trouver une entreprise lyonnaise pour laquelle ma &quot;profession de foi&quot; a du sens, comme c'est le cas pour <a href="http://blog.xebia.fr">Xebia</a>, mon employeur actuel.</p>
+				<p>Certes, des offres d'emploi tombent par paquets sur <a href="http://www.linkedin.com/in/nicolasdemengel">LinkedIn</a>, mais je reste dubitatif face à la 123<sup>ème</sup> annonce me proposant de travailler &quot;<em>au sein d’une équipe à taille humaine</em>&quot;, où j'aurais &quot;<em>un rôle clé</em>&quot; et où je serais &quot;<em>force de proposition</em>&quot;. Je ne suis pas sûr non plus de vouloir &quot;<em>intervenir sur toutes les phases</em> (sic) <em>d'un projet : concevoir les spécifications techniques des fonctionnalités produit, développer les différents composants, écrire les tests unitaires et fonctionnels...</em>&quot;</p>
+				<p>Alors en l'attente de trouver plus d'annonces sur des sites aussi merveilleux que l'<a href="http://www.express-board.fr/">eXpress Board</a>, j'ai décidé de tenter ma chance sur Twitter !</p>
+				<p>Intéressé ? <a href="mailto:nicolas.demengel@gmail.com" target="_blank">Contactez-moi</a> !</p>
+			</section>
+		</article>
+		<article id="misc">
+			<section id="misc-occupations">
+				<h2>Mon CV</h2>
+				<p>Vous pouvez avoir un aperçu de mes affectations passées sur mon profil <a href="http://www.linkedin.com/in/nicolasdemengel">LinkedIn</a>. Et pour une description plus détaillée, merci de bien vouloir <a href="mailto:nicolas.demengel@gmail.com" target="_blank">me contacter</a>.</p>
+				<h2>Mes occupations</h2>
+				<h3>En cours :</h3>
+				<ul>
+					<li>Obtention du niveau 2 de la compétence "Jeune Papa".</li>
+					<li>Finalisation d'une version majeure de <a href="http://moreunit.org">MoreUnit</a>, apportant un support minimal pour tous les langages de programmation, et profitant d'un nettoyage du code.</li>
+					<li>Avec des collègues de <a href="http://blog.xebia.fr">Xebia</a>, création d'une <a href="https://github.com/tdw">base de connaissances</a> et de <a href="https://github.com/ndemengel/tdw.refactoring.video-rental-shop">contenus</a> pour faciliter l'apprentissage de bonnes pratiques de coding.</li>
+					<li>Apprentissage de <a href="http://learnyouahaskell.com/">Haskell</a>.</li>
+				</ul>
+				<h3>Dans ma TODO-list :</h3>
+				<ul>
+					<li>Proposer des améliorations aux plug-ins pour Eclipse <a href="https://code.google.com/p/bpep/">Builder Pattern</a> et <a href="https://code.google.com/p/fluent-builders-generator-eclipse-plugin/">Fluent builders generator</a> pour assouplir leur usage, ou à défaut écrire un nouveau plugin.</li>
+					<li>Mettre à disposition de la communauté une bibliothèque extra-light codée récemment pour MoreUnit, fournissant un mimimum de support pour programmer fonctionnellement en Java. La cible étant les très petits projets qui aimeraient par exemple utiliser <a href="https://code.google.com/p/guava-libraries/">Guava</a> ou <a href="http://functionaljava.org/">functionaljava</a> mais ne peuvent se permettre d'être trop lourds à télécharger, ou qui maintiennent une compatibilité Java 5 et aimeraient tout de même accéder à la puissance d'un <a href="http://docs.guava-libraries.googlecode.com/git/javadoc/com/google/common/collect/FluentIterable.html">FluentIterable</a>.</li>
+					<li>Réaliser un vrai projet en Scala.</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Liens divers</h2>
+				<ul>
+					<li><a href="http://moreunit.org">MoreUnit</a>, plugin pour Eclipse aidant à l'écriture de tests unitaires et au TDD</li>
+					<li>Mes <a href="http://blog.xebia.fr/author/ndemengel/">articles</a> et <a href="http://blog.xebia.fr/?s=nicolas+demengel">autres posts</a> sur le blog de Xebia, mon employeur actuel</li>
+				</ul>
+			</section>
+		</article>
+	</div>
+	<aside id="social">
+		<ul>
+			<li><a href="https://twitter.com/NicolasDemengel" title="Mon compte Twitter"><img alt="Logo Twitter" src="img/iconmonstr-twitter-4-icon-64.png" /></a></li>
+			<li><a href="https://github.com/ndemengel" title="Mon compte Github"><img alt="Logo Github" src="img/iconmonstr-github-9-icon-64.png" /></a></li>
+			<li><a href="http://www.linkedin.com/in/nicolasdemengel" title="Mon compte LinkedIn"><img alt="Logo LinkedIn" src="img/iconmonstr-linkedin-4-icon-64.png" /></a></li>
+		</ul>
+	</aside>
+	<footer>
+		<div id="legal">Icônes par <a href="http://iconmonstr.com/">iconmonstr</a></div>
+	</footer>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
