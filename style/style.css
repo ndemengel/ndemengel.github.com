@@ -1,8 +1,10 @@
 body {
-	color: #4C4C4C;
-	font-family: Helvetica, Arial, sans-serif;
 	margin: 0 auto;
 	width: 800px;
+	color: #4C4C4C;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -80,9 +82,16 @@ nav {
 body>footer {
 	position: absolute;
 	bottom: 0px;
-	height: 40px;
+	height: 45px;
 	width: 800px;
-	padding-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: .8em;
+}
+
+body>footer>p {
+	text-align: center;
+	margin: .2em 0;
 }
 
 #social {
@@ -120,8 +129,10 @@ body>footer {
 }
 
 #social>ul,nav>ul {
-	list-style: none outside;
+	margin: 0;
 	padding: 0;
+	list-style: none;
+	list-style-image: none;
 }
 
 nav>ul>li {
