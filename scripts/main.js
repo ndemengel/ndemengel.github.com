@@ -77,8 +77,7 @@
 		};
 	}
 
-	var internalLinks = document.querySelectorAll('a[href^="#"]');
-	forEachNode(internalLinks, function(link) {
+	forEachNode(document.querySelectorAll('a'), function(link) {
 		link.onclick = function() {
 			storeScrollState();
 			return true;
