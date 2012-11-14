@@ -42,26 +42,6 @@ body h1 {
 	text-shadow: #ACACAC 2px 2px 3px;
 }
 
-body h1 a,
-body h1 a:visited,
-body h1 a:focus,
-body h1 a:hover {
-  color: black;
-}
-
-body h1 img {
-  vertical-align: text-bottom;
-  transition: all 0.5s ease;
-}
-
-body h1:hover img {
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
 body>header>img {
 	position: absolute;
 	top: 20px;
@@ -122,8 +102,8 @@ body>footer>p {
 
 #social ul {
 	position: absolute;
-	top: 25px;
-	right: 30px;
+	top: 35px;
+	right: 45px;
 	-moz-transform: rotate(5deg);
 	-webkit-transform: rotate(5deg);
 	-o-transform: rotate(5deg);
