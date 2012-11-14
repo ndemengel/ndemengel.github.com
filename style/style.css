@@ -242,11 +242,10 @@ body>footer:before {
 
 .book-gallery img {
 	transition: all 1s ease;
-	zoom: 70%;
 }
 
 .book-gallery figure:hover img {
-	zoom: 100%;
+	zoom: 105%;
 }
 
 .book-gallery figcaption {
