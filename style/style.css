@@ -249,6 +249,49 @@ body>footer:before {
 	text-align: justify;
 }
 
+.book-gallery {
+	width: 750px;
+}
+
+.book-gallery figure {
+	float: left;
+	width: 250px;
+	height: 350px;
+	text-align: center;
+}
+
+.book-gallery img {
+	transition: all 1s ease;
+	zoom: 70%;
+}
+
+.book-gallery figure:hover img {
+	zoom: 100%;
+}
+
+.book-gallery figcaption {
+	font-size: .9em;
+	padding: 0 4px;
+}
+
+.book-gallery a,
+.book-gallery a:visited,
+.book-gallery a:focus,
+.book-gallery a:hover {
+  color: #8C8C8C;
+}
+
+.book-gallery figure:hover a,
+.book-gallery figure:hover a:visited,
+.book-gallery figure:hover a:focus,
+.book-gallery figure:hover a:hover {
+  color: black;
+}
+
+.book-gallery footer {
+	clear: both;
+}
+
 a[href="#todo"],.todo {
 	color: red;
 }
