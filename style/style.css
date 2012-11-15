@@ -144,6 +144,7 @@ nav>ul>li {
 	background: -o-linear-gradient(top, #4C4C4C 0%, black 100%);
 	background: -ms-linear-gradient(top, #4C4C4C 0%, black 100%);
 	background: linear-gradient(to bottom, #4C4C4C 0%, black 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4C4C4C', endColorstr='black',GradientType=0);
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-o-border-radius: 4px;
@@ -168,6 +169,7 @@ nav>ul>li:hover {
 	background: -o-linear-gradient(top, #8C8C8C 0%, black 100%);
 	background: -ms-linear-gradient(top, #8C8C8C 0%, black 100%);
 	background: linear-gradient(to bottom, #8C8C8C 0%, black 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='black',GradientType=0);
 }
 
 nav>ul>li.selected {
@@ -177,6 +179,7 @@ nav>ul>li.selected {
 	background: -o-linear-gradient(top, #8C8C8C 0%, #4C4C4C 100%);
 	background: -ms-linear-gradient(top, #8C8C8C 0%, #4C4C4C 100%);
 	background: linear-gradient(to bottom, #8C8C8C 0%, #4C4C4C 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='4C4C4C',GradientType=0);
 }
 
 nav:after {
@@ -236,7 +239,7 @@ body>footer:before {
 .book-gallery figure {
 	float: left;
 	width: 250px;
-	height: 350px;
+	height: 300px;
 	text-align: center;
 }
 
