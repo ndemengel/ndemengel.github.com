@@ -274,3 +274,106 @@ body>footer:before {
 a[href="#todo"],.todo {
 	color: red;
 }
+
+@media (max-width: 799px) {
+  body {
+    width: auto;
+    margin: 2em;
+  }
+
+  body>header {
+    position: static;
+    top: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  body>header>img {
+    position: static;
+    top: auto;
+    right: auto;
+    margin: 2em;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #content {
+    position: static;
+    top: auto;
+    width: auto;
+    bottom: auto;
+    overflow: visible;
+    z-index: auto;
+  }
+
+  body>footer {
+    position: static;
+    bottom: auto;
+    height: auto;
+    width: auto;
+    padding: 0;
+  }
+
+  #social {
+    position: static;
+    top: auto;
+    width: auto;
+    margin: 2em;
+  }
+
+  #social ul {
+    position: static;
+    top: auto;
+    right: auto;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    text-align: center;
+  }
+  
+  #social li {
+    display: inline-block;
+    padding: 0 1em;
+  }
+
+  #social img {
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  nav:after {
+    content: normal;
+  }
+
+  body>footer:before {
+    content: normal;
+  }
+
+  .book-gallery {
+    width: auto;
+    text-align: center;
+  }
+
+  .book-gallery figure {
+    float: none;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 2em;
+  }
+
+  .book-gallery img {
+    transition: all 0 ease 0;
+  }
+
+  .book-gallery figure:hover img {
+    zoom: 100%;
+  }
+}

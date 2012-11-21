@@ -95,16 +95,19 @@
 		restoreScrollState();
 	}
 
-	window.onhashchange = function() {
-		if (window.location.hash != '') {
-			goToSection(window.location.hash.substr(1));
-		}
-	};
+  // either an old browser or a big screen (i.e. not a phone)
+  if (!window.matchMedia || window.matchMedia("(min-width: 800px)").matches) {
+    window.onhashchange = function() {
+      if (window.location.hash != '') {
+        goToSection(window.location.hash.substr(1));
+      }
+    };
 
-	if (window.location.hash == '') {
-		window.location.hash = '#presentation';
-	}
-	else {
-		goToSection(window.location.hash.substr(1));
-	}
+    if (window.location.hash == '') {
+      window.location.hash = '#presentation';
+    }
+    else {
+      goToSection(window.location.hash.substr(1));
+    }
+  }
 })();
