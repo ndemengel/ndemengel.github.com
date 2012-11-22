@@ -96,7 +96,7 @@
 	}
 
   // either an old browser or a big screen (i.e. not a phone)
-  if (!window.matchMedia || window.matchMedia("handled, (min-width: 800px)").matches) {
+  if (!window.matchMedia || window.matchMedia("(min-width: 800px)").matches) {
     window.onhashchange = function() {
       if (window.location.hash != '') {
         goToSection(window.location.hash.substr(1));
