@@ -271,6 +271,10 @@ body>footer:before {
 	clear: both;
 }
 
+#misc h2 {
+  display: none;
+}
+
 a[href="#todo"],.todo {
 	color: red;
 }
@@ -338,7 +342,7 @@ a[href="#todo"],.todo {
   
   #social li {
     display: inline-block;
-    padding: 0 .5em;
+    padding: 0 .4em;
   }
 
   #social img {
@@ -376,5 +380,9 @@ a[href="#todo"],.todo {
 
   .book-gallery figure:hover img {
     zoom: 100%;
+  }
+  
+  #misc h2 {
+    display: block;
   }
 }
