@@ -275,7 +275,7 @@ a[href="#todo"],.todo {
 	color: red;
 }
 
-@media (max-width: 799px) {
+@media handled, (max-width: 799px) {
   body {
     width: auto;
     margin: 2em;
