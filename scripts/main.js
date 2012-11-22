@@ -95,8 +95,9 @@
 		restoreScrollState();
 	}
 
-  // either an old browser or a big screen (i.e. not a phone)
-  if (!window.matchMedia || window.matchMedia("(min-width: 800px)").matches) {
+  // ugly hack to detect whether the site is displayed in "small screen" mode
+  // (window.matchMedia does not seem to be ready yet)
+  if (document.querySelectorAll('nav').style.display == 'none') {
     window.onhashchange = function() {
       if (window.location.hash != '') {
         goToSection(window.location.hash.substr(1));
