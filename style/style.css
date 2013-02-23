@@ -42,7 +42,7 @@ body h1 {
 	text-shadow: #ACACAC 2px 2px 3px;
 }
 
-body>header>img {
+#photo {
 	position: absolute;
 	top: 20px;
 	right: 135px;
@@ -61,6 +61,12 @@ body>header>img {
 	-o-box-shadow: 5px 5px 3px #ACACAC;
 	-ms-box-shadow: 5px 5px 3px #ACACAC;
 	box-shadow: 5px 5px 3px #ACACAC;
+}
+
+#adoptedStamp {
+	position: absolute;
+	top: 20px;
+	right: 225px;
 }
 
 nav {
@@ -275,6 +281,10 @@ body>footer:before {
   display: none;
 }
 
+.deleted {
+	text-decoration: line-through;
+}
+
 a[href="#todo"],.todo {
 	color: red;
 }
@@ -286,18 +296,27 @@ a[href="#todo"],.todo {
   }
 
   body>header {
-    position: static;
-    top: auto;
-    width: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 280px;
+    margin: auto;
     text-align: center;
   }
 
-  body>header>img {
-    position: static;
+  #photo {
     top: auto;
-    right: auto;
+    left: 25px;
+    right: none;
     zoom: 80%
     margin: 2em auto;
+  }
+
+  #adoptedStamp {
+  	top: auto;
+    left: 25px;
+    right: none;
   }
 
   nav {
