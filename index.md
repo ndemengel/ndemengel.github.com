@@ -4,7 +4,7 @@ title: Home
 ---
 {% include JB/setup %}
 
-## Blog Posts:
+## Blog Posts
 
 <ul class="posts">
   {% for post in site.posts %}

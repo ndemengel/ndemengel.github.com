@@ -64,9 +64,15 @@
   border: 1px solid #4c964d;
   color: #FFF; }
 
+.tweet-button {
+  padding: 3px 6px;
+  margin-top: 1em;
+}
+
 .tweet-button a {
   display: block;
-  padding: 2px 5px 2px 40px;
+  padding: 0px 0px 0px 24px;
   background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
   text-decoration: none;
-}
+  background-size: 16px 16px;
+  margin: 0; }
