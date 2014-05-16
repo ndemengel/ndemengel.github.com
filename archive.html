@@ -6,10 +6,20 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<nav>
+  <ul>
+    <li><a href="#blog-posts">Blog Posts</a></li>
+    <li><a href="#job-searches">Job Searches</a></li>
+  </ul>
+</nav>
+<hr />
+<a name="blog-posts"></a>
+
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
 
-<h2>Job Search</h2>
+<hr />
+<h2 id="job-searches">Job Searches</h2>
 
 <ul>
   <li><a href="/archives/job/2013.html">December 2012</a></li>
