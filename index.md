@@ -33,7 +33,7 @@ hide_title: true
 <p>Je crois au véritable travail d'équipe, où tous les membres se sentent <em>concernés</em> par le produit et s'accordent sur des <em>valeurs</em> pour le construire.</p>
 
 <p>Ma conviction est que la profession de programmeur peut tendre vers une forme d'<a href="http://manifesto.softwarecraftsmanship.org/">artisanat</a>, et je m'emploie à mon niveau à ce qu'elle aille dans cette direction.<br>
-J'essaye de me tenir à quelques principes de base &mdash; mettre le métier cible au centre du développment, faire au plus simple, travailler par petits incréments, obtenir du retour au plus tôt &mdash; et à cette fin m'impose une discipline constante : clean code, DDD/BDD (Domain and Behavior Driven Development), livraison continue.</p>
+J'essaye de me tenir à quelques principes de base &mdash; mettre le métier cible au centre du développement, faire au plus simple, travailler par petits incréments, obtenir du retour au plus tôt &mdash; et à cette fin m'impose une discipline constante : clean code, DDD/BDD (Domain and Behavior Driven Development), livraison continue.</p>
 
 <p>Je cherche à m'améliorer de manière continue pour devenir un <a href="http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/">meilleur</a> collègue et développeur (mais ce n'est pas facile tous les jours).</p>
 
@@ -45,7 +45,7 @@ J'essaye de me tenir à quelques principes de base &mdash; mettre le métier cib
 
 <p>Par le passé j'ai donné quelques formations <strong>TDD & Software Craftsmanship</strong> pour <a href="http://training.xebia.fr/formations-java-jee/formation-tdd-software-craftsmanship.html">Xebia Training</a>. J'essaie aujourd'hui encore de partager ces compétences sur mon lieu de travail.</p>
 
-<p>Je suis également développeur sur le plugin <a href="http://moreunit.sourceforge.net">MoreUnit</a> pour Eclipse.</p>
+<p>Je suis également développeur sur le plugin <a href="http://moreunit.sourceforge.net">MoreUnit</a> pour Eclipse et IntelliJ.</p>
 
 </div>
 
