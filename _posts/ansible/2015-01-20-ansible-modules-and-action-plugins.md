@@ -97,7 +97,7 @@ Unfortunately, modules can't read or write variables. All they can access is the
 ## Action Plugins
 
 As explained on [Ansible's Google Group](https://groups.google.com/forum/#!searchin/ansible-project/action$20plugin$20vs$20module/ansible-project/wNSJ4g-f4F8/xlpijLcRNSUJ): "action_plugins are a special type of module, or a compliment to existing modules. action_plugins get run on the 'master' instead of on the target, for modules like file/copy/template, some of the work needs to be done on the master before it executes things on the target. The action plugin executes first and can then execute (or not) the normal module".  
-For instance, the [copy action plugin](https://github.com/ansible/ansible/blob/devel/lib/ansible/runner/action_plugins/copy.py) calls (`_execute_module`) the [copy module](https://github.com/ansible/ansible-modules-core/blob/devel/files/copy.py).
+For instance, the [copy action plugin](https://github.com/ansible/ansible/blob/stable-1.9/lib/ansible/runner/action_plugins/copy.py) calls (`_execute_module`) the [copy module](https://github.com/ansible/ansible-modules-core/blob/stable-1.9/files/copy.py).
 
 Custom action plugins must be placed under the [configured `action_plugins` path](http://docs.ansible.com/intro_configuration.html#action-plugins), or alongside playbooks under `./action_plugins`.
 
