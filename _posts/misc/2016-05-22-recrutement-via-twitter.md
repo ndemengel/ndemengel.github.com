@@ -15,7 +15,7 @@ quand même un peu, et je pense que je ne suis pas le seul.
 Elle m'a recontacté juste après par email, et j'ai décidé de partager ma réponse, qui explique ce qui me dérange.
 
 
-# Ma réponse donc
+## Ma réponse donc
 
 Bonjour Xxx,
 
