@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: 'À propos du recrutement sur Twitter'
 category: misc
 tags: [recrutement twitter perso]

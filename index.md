@@ -1,5 +1,7 @@
 ---
 layout: page
+theme:
+  name: twitter
 title: "Nicolas Grisey Demengel"
 hide_title: true
 ---

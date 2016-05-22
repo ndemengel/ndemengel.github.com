@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: Implementing a Java-Like Mapped Diagnostic Context (MDC) for Logging Within an Express Application
 category: nodejs
 tags: [nodejs mdc context logging express bunyan continuation-local-storage]

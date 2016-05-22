@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: 'Continuous Delivery Recipes - Development Flow: Branching Strategies'
 category: continuous delivery recipes
 tags: [continuous delivery, branching, git, code review]

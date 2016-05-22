@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: Continuous Delivery Recipes - Introduction
 category: continuous delivery recipes
 tags: [continuous delivery]

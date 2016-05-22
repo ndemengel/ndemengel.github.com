@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: 'Tchatter Experiment: Scalable App, Deployable Without Service Interruption'
 category: misc
 tags: [nodejs express websocket ansible docker angular redis]

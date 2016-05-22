@@ -1,5 +1,7 @@
 ---
 layout: post
+theme:
+  name: twitter
 title: 'Ansible: Modules and Action Plugins'
 category: ansible
 tags: [ansible, ansible modules, ansible action plugins]
