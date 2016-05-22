@@ -4,7 +4,7 @@ theme:
   name: twitter
 title: Implementing a Java-Like Mapped Diagnostic Context (MDC) for Logging Within an Express Application
 category: nodejs
-tags: [nodejs mdc context logging express bunyan continuation-local-storage]
+tags: [nodejs, mdc, context logging, express, bunyan, continuation-local-storage]
 ---
 Common Java loggers (Log4j, Logback, etc.) implement a Mapped Diagnostic
 Context (MDC), i.e. a simple map that is associated to the current thread. This

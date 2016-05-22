@@ -4,7 +4,7 @@ theme:
   name: twitter
 title: 'À propos du recrutement sur Twitter'
 category: misc
-tags: [recrutement twitter perso]
+tags: [recrutement, twitter, perso]
 ---
 ## Introduction
 
