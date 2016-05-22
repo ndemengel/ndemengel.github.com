@@ -40,10 +40,10 @@
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            {% if page.url == '/blog.html' %}
-            <li class="active"><a href="{{ BASE_PATH }}/blog.html" class="active">Blog</a></li>
+            {% if page.url == '/blog/' %}
+            <li class="active"><a href="{{ BASE_PATH }}/blog/" class="active">Blog</a></li>
             {% else %}
-            <li><a href="{{ BASE_PATH }}/blog.html">Blog</a></li>
+            <li><a href="{{ BASE_PATH }}/blog/">Blog</a></li>
             {% endif %}
 
             {% assign pages_list = site.pages %}
