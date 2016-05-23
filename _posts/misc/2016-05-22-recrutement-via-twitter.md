@@ -21,7 +21,7 @@ Bonjour Xxx,
 
 Je n'ai pas pour habitude d'aboyer sur le premier venu sur Twitter ou de manière générale sur Internet.
 C'est souvent stérile et j'ai souvent mieux à faire de temps, surtout un dimanche. Mais il faut bien
-comprendre que chaque réseau social a une manière de fonctionner précises, des usages et des codes. J'ai 
+comprendre que chaque réseau social a une manière de fonctionner précise, des usages et des codes. J'ai 
 en effet trouvé du travail via Twitter, en laissant un message sur ma timeline (mon espace personnel donc,
 bien que public), qui a été lu et retwitté par des personnes qui me suivaient (action volontaire de leur
 part). Je ne me suis pas permis d'apostropher n'importe qui au petit bonheur, bien qu'il aurait éventuellement
