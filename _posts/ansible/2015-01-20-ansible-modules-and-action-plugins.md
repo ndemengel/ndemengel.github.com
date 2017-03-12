@@ -134,7 +134,7 @@ class ActionModule(object):
         self.basedir = runner.basedir
 
     def run(self, conn, tmp, module_name, module_args, inject, complex_args=None, **kwargs):
-        value = template.template(self.basedir, '{{ some_var }}', inject)
+        value = template.template(self.basedir, '{{ '{{' }} some_var }}', inject)
 
         return ReturnData(conn=conn, result=dict(
             changed=True,
@@ -189,7 +189,7 @@ class ActionModule(object):
         if res is not None:
             return res
 
-        template_string = '{{ %s }}' % fact_name
+        template_string = '{{ '{{' }} %s }}' % fact_name
         res = template.template(self.basedir, template_string, inject)
         return None if res == template_string else res
 
