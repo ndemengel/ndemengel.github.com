@@ -20,6 +20,6 @@ hide_title: true
 <hr>
 
 <div>
-  <a href="/archive">Blog posts</a>
+  <a href="/archive">Blog posts and talks...</a>
 </div>
 
