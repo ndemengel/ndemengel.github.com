@@ -10,18 +10,13 @@ group: navigation
 
 <nav>
   <ul>
-    <li><a href="#blog-posts">Blog Posts (last: 2018)</a></li>
     <li><a href="#external-posts">External Blog Posts (last: 2019)</a></li>
+    <li><a href="#blog-posts">Posts on This Blog (last: 2018)</a></li>
     <li><a href="#talks">Talks &amp; Workshops (last: 2019)</a></li>
+    <li><a href="#open-source">Open Source</a></li>
     <li><a href="#job-searches">Job Searches</a></li>
   </ul>
 </nav>
-<hr />
-<a name="blog-posts"></a>
-
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
-
 
 <hr />
 <h2 id="external-posts">External Blog Posts</h2>
@@ -68,6 +63,15 @@ group: navigation
 </ul>
 
 <hr />
+<a name="blog-posts"></a>
+<h2 id="external-posts">Posts on This Blog</h2>
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
+
+
+
+<hr />
 <h2 id="talks">Talks &amp; Workshops</h2>
 <h3>2019</h3>
 <ul>
@@ -83,6 +87,7 @@ group: navigation
 </ul>
 <h3>2015</h3>
 <ul>
+  <li>Human Talks Lyon : <a href="https://humantalks.com/talks/726-templating-cote-serveur-et-tests-de-composants-fro">Templating côté serveur et tests de composants front JS : l'impossible amour ?</a></li>
   <li>Human Talks Lyon : <a href="http://humantalks.com/talks/648-les-tests-de-non-reg-du-pauvre">Les tests de non-reg du pauvre</a></li>
 </ul>
 <h3>2014</h3>
@@ -98,6 +103,13 @@ group: navigation
 <ul>
   <li>Xebia Knowledge Exchange : <a href="http://blog.xebia.fr/2011/09/15/paradigmes-de-programmation-par-nicolas-demengel/">Paradigmes de programmation</a></li>
   <li>Xebia Knowledge Exchange : <a href="http://blog.xebia.fr/2011/01/07/retrospective-de-notre-xke-de-janvier/">Développer un plugin pour Eclipse</a></li>
+</ul>
+
+<hr />
+<h2 id="open-source">Open Source</h2>
+<ul>
+  <li>Author of <a href="https://github.com/MoreUnit/org.moreunit.intellij.plugin">MoreUnit for IntelliJ</a></li>
+  <li>Core maintainer of <a href="https://moreunit.github.io/MoreUnit-Eclipse/">MoreUnit fro Eclipse</a> from 2010 to 2017</li>
 </ul>
 
 <hr />
