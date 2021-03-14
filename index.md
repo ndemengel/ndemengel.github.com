@@ -17,19 +17,22 @@ hide_title: true
   </ul>
 </aside>
 
-<section>
-  <h2>Presentation</h2>
+<section style="font-size: 1rem;">
+  <h2 hidden>Presentation</h2>
   <p>
-    Hi,<br>I'm Nicolas Grisey Demengel, a passionate software engineer.
+    Hi,
+    <br>I'm Nicolas Grisey Demengel, a passionate software engineer.
   </p>
   <p>
     I love my job and I'm seeking to do it well in all occasions. I like the technical side of development but only as long as it serves the end users.
-    <br>I seek to always apply a few basic principles: letting the business needs drive the development, keeping it simple (but not too simple), getting feedback as soon as possible. To this end, I value some tools and techniques &mdash; without being religious about them &mdash; clean code, domain-driven design, test-driven development, continuous delivery...
+  </p>
+  <p>
+    I seek to always apply a few basic principles: letting the business needs drive the development, keeping it simple (but not too simple), getting feedback as soon as possible. To this end, I value some tools and techniques &mdash; without being religious about them &mdash; clean code, domain-driven design, test-driven development, continuous delivery...
   </p>
   <p>Since 2015, I have been doing my best to apply all this at <a href="https://www.malt.com">Malt</a>.</p>
 </section>
 
-<section>
+<section style="margin-top: 30px;">
   <h2 hidden>More about me</h2>
   <h3>Latest blog posts</h3>
   <ul>
