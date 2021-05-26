@@ -37,6 +37,7 @@ hide_title: true
   <h2 hidden>More about me</h2>
   <h3>Latest blog posts</h3>
   <ul>
+    <li>Malt: <a href="https://medium.com/nerds-malt/a-guide-to-safely-and-efficiently-test-code-that-uses-repositories-c91effb41dd0">A guide to safely and efficiently test code that uses repositories</a></li>
     <li>Malt: <a href="https://medium.com/nerds-malt/enforcing-dependency-rules-between-maven-modules-using-junit-3c04bca179f4">Enforcing dependency rules between Maven modules using JUnit</a></li>
     <li>Malt: <a href="https://medium.com/nerds-malt/supporting-a-product-team-reorg-with-a-code-reorg-24639aae8ddf">Supporting a product team reorg with a code reorg</a></li>
     <li>Malt: <a href="https://medium.com/nerds-malt/a-tale-of-calling-an-external-service-51442115b362">A tale of calling an external service</a></li>
