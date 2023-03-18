@@ -71,20 +71,20 @@
 
 .tweet-button a {
   display: block;
-  padding: 0px 0px 0px 24px;
+  padding: 0 0 0 24px;
   background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
   text-decoration: none;
   background-size: 16px 16px;
   margin: 0; }
 
 #me {
+    display: flex;
     width: 320px;
     margin: 3em auto;
+    align-items: center;
 }
 
 #photo {
-    display: inline-block;
-    vertical-align: top;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -98,8 +98,6 @@
 }
 
 #social {
-    display: inline-block;
-    margin-top: 12px;
     margin-left: 2em;
 	padding: 0;
 	list-style: none;
@@ -121,6 +119,7 @@
 @media only screen and (max-width: 799px) {
 
   #me {
+    display: block;
     height: 280px;
     text-align: center;
   }

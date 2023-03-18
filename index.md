@@ -8,20 +8,23 @@ hide_title: true
 {% include JB/setup %}
 
 <aside id="me">
-  <img id="photo" src="img/photo.jpeg" alt="Photo de Nicolas" />
+  <img id="photo" src="/img/photo.jpeg" alt="Nicolas' photo" width="210" height="210"/>
   <ul id="social">
-    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contactez-moi !" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Logo Email" /></a></li>
-    <li><a href="https://twitter.com/NicolasDemengel" title="Mon compte Twitter"><img alt="Logo Twitter" src="/img/iconmonstr-twitter-4-icon-48.png" /></a></li>
-    <li><a href="https://github.com/ndemengel" title="Mon compte Github"><img alt="Logo Github" src="/img/iconmonstr-github-9-icon-48.png" /></a></li>
-    <li><a href="http://www.linkedin.com/in/nicolasdemengel" title="Mon compte LinkedIn"><img alt="Logo LinkedIn" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
+    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Email icon by iconmonstr.com" /></a></li>
+    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account"><img alt="Mastodon icon by iconmonstr.com" src="/img/iconmonstr-retweet-3-icon-48.png" /></a></li>
+    <li><a href="https://twitter.com/NicolasDemengel" title="My Twitter account"><img alt="Twitter icon by iconmonstr.com" src="/img/iconmonstr-twitter-4-icon-48-striked.png" /></a></li>
+    <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" /></a></li>
+    <li><a href="http://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
   </ul>
 </aside>
 
-<section style="font-size: 1rem;margin-top: 50px;">
+<section style="font-size: 1rem; line-height: 1.5rem; margin-top: 50px;">
   <h2 hidden>Presentation</h2>
   <p>
     Hi,
-    <br>I'm Nicolas Grisey Demengel, a passionate software engineer usually working using Java/Kotlin and JavaScript, and occasionally with Python.
+  </p>
+  <p>
+    I'm Nicolas Grisey Demengel, a passionate software engineer usually working using Java/Kotlin and JavaScript, and occasionally with Python.
   </p>
   <p>
     I love my job and try to do it well at all times. I like the technical side of development, but only as long as it serves the end user/ultimate goal of the software.
@@ -29,7 +32,9 @@ hide_title: true
   <p>
     I always seek to apply a few basic principles: let the business needs drive the development, keep it simple (but not too simple), get feedback as soon as possible.
     <br>To this end, I value some tools and techniques &mdash; without being religious about them &mdash; clean code, domain-driven design, test-driven development, continuous delivery...
-    <br>In recent years, I have adopted and advocated other principles: software architecture must not only adapt to technical constraints or enforce domain separation, but also support team ownership, and data must guide us or at least validate our intuitions.
+  </p>
+  <p>
+    In recent years, I have adopted and advocated other principles: software architecture must not only adapt to technical constraints or enforce domain separation, but also support team ownership, and data must guide us or at least validate our intuitions.
   </p>
   <p>Since 2015, I have been doing my best to apply all this at <a href="https://www.malt.com">Malt</a>.</p>
 </section>
