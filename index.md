@@ -11,7 +11,7 @@ hide_title: true
   <img id="photo" src="/img/photo.jpeg" alt="Nicolas' photo" width="210" height="210"/>
   <ul id="social">
     <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Email icon by iconmonstr.com" /></a></li>
-    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account"><img alt="Mastodon icon by iconmonstr.com" src="/img/iconmonstr-retweet-3-icon-48.png" /></a></li>
+    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="Mastodon icon by iconmonstr.com" src="/img/iconmonstr-retweet-3-icon-48.png" /></a></li>
     <li><a href="https://twitter.com/NicolasDemengel" title="My (paused) Twitter account"><img alt="Twitter icon by iconmonstr.com" src="/img/iconmonstr-twitter-4-icon-48-striked.png" /></a></li>
     <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" /></a></li>
     <li><a href="http://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
