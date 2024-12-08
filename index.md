@@ -10,11 +10,10 @@ hide_title: true
 <aside id="me">
   <img id="photo" src="/img/photo.jpeg" alt="Nicolas' photo" width="210" height="210"/>
   <ul id="social">
-    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Email icon by iconmonstr.com" /></a></li>
-    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="Mastodon icon by iconmonstr.com" src="/img/iconmonstr-retweet-3-icon-48.png" /></a></li>
-    <li><a href="https://twitter.com/NicolasDemengel" title="My (paused) Twitter account"><img alt="Twitter icon by iconmonstr.com" src="/img/iconmonstr-twitter-4-icon-48-striked.png" /></a></li>
-    <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" /></a></li>
-    <li><a href="https://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
+    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Email icon by iconmonstr.com" width="48" height="48"></a></li>
+    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="Mastodon icon" src="/img/mastodon-48.png" width="48" height="48"></a></li>
+    <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" width="48" height="48"></a></li>
+    <li><a href="https://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" width="48" height="48"></a></li>
   </ul>
 </aside>
 
@@ -24,7 +23,7 @@ hide_title: true
     Hi,
   </p>
   <p>
-    I'm Nicolas Grisey Demengel, a passionate software engineer usually working using Java/Kotlin and JavaScript, and occasionally with Python.
+    I'm Nicolas Grisey Demengel, a passionate software engineer usually working using Java/Kotlin and JavaScript/TypeScript, and occasionally with Python.
   </p>
   <p>
     I love my job and try to do it well at all times. I like the technical side of development, but only as long as it serves the end user/ultimate goal of the software.
