@@ -14,7 +14,7 @@ hide_title: true
     <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="Mastodon icon by iconmonstr.com" src="/img/iconmonstr-retweet-3-icon-48.png" /></a></li>
     <li><a href="https://twitter.com/NicolasDemengel" title="My (paused) Twitter account"><img alt="Twitter icon by iconmonstr.com" src="/img/iconmonstr-twitter-4-icon-48-striked.png" /></a></li>
     <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" /></a></li>
-    <li><a href="http://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
+    <li><a href="https://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" /></a></li>
   </ul>
 </aside>
 
@@ -43,6 +43,7 @@ hide_title: true
   <h2 hidden>More about me</h2>
   <h3>Latest blog posts</h3>
   <ul>
+    <li>Malt : <a href="https://blog.malt.engineering/test-the-ui-of-a-nuxt-application-in-isolation-with-playwright-f73ff3dacab6">Testing the UI of a Nuxt application in isolation with Playwright</a></li>
     <li>Malt: Your version control system contains invaluable insights for your engineering teams:
       <a href="https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-i-c90b237fe7b4">Part I</a>,
       <a href="https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-ii-258a72b6eb65">Part II</a>,
