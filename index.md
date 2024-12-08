@@ -42,7 +42,7 @@ hide_title: true
   <h2 hidden>More about me</h2>
   <h3>Latest blog posts</h3>
   <ul>
-    <li>Malt : <a href="https://blog.malt.engineering/test-the-ui-of-a-nuxt-application-in-isolation-with-playwright-f73ff3dacab6">Testing the UI of a Nuxt application in isolation with Playwright</a></li>
+    <li>Malt: <a href="https://blog.malt.engineering/test-the-ui-of-a-nuxt-application-in-isolation-with-playwright-f73ff3dacab6">Testing the UI of a Nuxt application in isolation with Playwright</a></li>
     <li>Malt: Your version control system contains invaluable insights for your engineering teams:
       <a href="https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-i-c90b237fe7b4">Part I</a>,
       <a href="https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-ii-258a72b6eb65">Part II</a>,
