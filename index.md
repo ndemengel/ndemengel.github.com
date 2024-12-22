@@ -10,10 +10,10 @@ hide_title: true
 <aside id="me">
   <img id="photo" src="/img/photo.jpeg" alt="Nicolas' photo" width="210" height="210"/>
   <ul id="social">
-    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="Email icon by iconmonstr.com" width="48" height="48"></a></li>
-    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="Mastodon icon" src="/img/mastodon-48.png" width="48" height="48"></a></li>
-    <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="Github icon by iconmonstr.com" src="/img/iconmonstr-github-9-icon-48.png" width="48" height="48"></a></li>
-    <li><a href="https://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="LinkedIn icon by iconmonstr.com" src="/img/iconmonstr-linkedin-4-icon-48.png" width="48" height="48"></a></li>
+    <li><a href="mailto:nicolas.demengel@gmail.com" title="Contact me!" target="_blank"><img src="/img/iconmonstr-email-9-icon-48.png" alt="" width="48" height="48"></a></li>
+    <li><a href="https://piaille.fr/@NicolasGriseyDemengel" title="My Mastodon account" rel="me"><img alt="" src="/img/mastodon-48.png" width="48" height="48"></a></li>
+    <li><a href="https://github.com/ndemengel" title="My Github account"><img alt="" src="/img/iconmonstr-github-9-icon-48.png" width="48" height="48"></a></li>
+    <li><a href="https://www.linkedin.com/in/nicolasdemengel" title="My LinkedIn account"><img alt="" src="/img/iconmonstr-linkedin-4-icon-48.png" width="48" height="48"></a></li>
   </ul>
 </aside>
 
