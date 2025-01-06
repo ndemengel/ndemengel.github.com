@@ -3,6 +3,8 @@ layout: page
 theme:
   name: twitter
 title: "Nicolas Grisey Demengel"
+description: My name is Nicolas Grisey Demengel, I'm a developer.
+image: img/photo.jpeg
 hide_title: true
 ---
 {% include JB/setup %}

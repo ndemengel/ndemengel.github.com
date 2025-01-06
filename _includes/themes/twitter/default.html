@@ -15,20 +15,20 @@
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="{{ page.title }}">
     {% if page.description %}<meta itemprop="description" content="{{ page.description }}">{% endif %}
-    <meta itemprop="image" content="https://demengel.net/img/photo.jpeg" />
+    {% if page.image %}<meta itemprop="image" content="https://demengel.net/{{ page.image }}">{% endif %}
     
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://demengel.net/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
     {% if page.description %}<meta property="og:description" content="{{ page.description }}">{% endif %}
-    <meta property="og:image" content="https://demengel.net/img/photo.jpeg">
+    {% if page.image %}<meta property="og:image" content="https://demengel.net/{{ page.image }}">{% endif %}
     
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }}">
     {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% endif %}
-    <meta name="twitter:image" content="https://demengel.net/img/photo.jpeg">
+    {% if page.image %}<meta property="twitter:image" content="https://demengel.net/{{ page.image }}">{% endif %}
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
