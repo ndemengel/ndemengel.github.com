@@ -116,6 +116,11 @@
 	transform: rotate(45deg);
 }
 
+.carioca {
+  color: rgb(230, 230, 230);
+  font-size: 0.8em;
+}
+
 .sr-only {
   position:    absolute !important;
   overflow:    hidden   !important;
