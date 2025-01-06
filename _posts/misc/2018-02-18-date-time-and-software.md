@@ -3,6 +3,7 @@ layout: post
 theme:
   name: twitter
 title: 'Date, time, and software'
+description: Where I get a refresher regarding date & time handling in software, especially in Java, JavaScript and MongoDB, which I happen to use a lot at work.
 category: misc
 tags: [date, time, time zone, java, javascript, mongodb]
 ---
